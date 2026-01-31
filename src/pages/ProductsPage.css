@@ -1,0 +1,133 @@
+.products-page {
+  padding: 60px 30px;
+  background-color: #fdfaf6;
+}
+
+.products-header {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto 50px;
+}
+
+.products-title {
+  font-size: 36px;
+  font-weight: 700;
+  color: #3e2723;
+  margin-bottom: 15px;
+}
+
+.products-subtitle {
+  font-size: 16px;
+  color: #a1887f;
+  line-height: 1.6;
+}
+
+.product-tabs {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 50px;
+  flex-wrap: wrap;
+}
+
+.product-tab {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 25px;
+  border: 1px solid #f0e9e2;
+  background-color: #fff;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 500;
+  color: #5d4037;
+  transition: all 0.3s;
+}
+
+.product-tab:hover {
+  background-color: #f5f1ed;
+}
+
+.product-tab.active {
+  background-color: #d35400;
+  color: #fff;
+  border-color: #d35400;
+}
+
+.products-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+
+  /* --- NEW STYLES FOR SINGLE CARD LAYOUT --- */
+  /* This ensures the grid items are centered if there's not enough to fill a row */
+  justify-content: center; 
+}
+
+/* This media query applies when the screen is wide enough that a single card would stretch too much */
+@media (min-width: 768px) {
+  .products-grid {
+    /* When there's only one card, we force it to take up a maximum width */
+    grid-template-columns: repeat(auto-fit, minmax(320px, 400px)); 
+  }
+}
+
+.custom-products-banner {
+    max-width: 1100px;
+    margin: 80px auto 0;
+    background-color: #fff;
+    border: 1px solid #f0e9e2;
+    border-radius: 12px;
+    padding: 40px;
+    text-align: center;
+}
+
+.custom-products-banner h3 {
+    font-size: 24px;
+    color: #3e2723;
+    margin-bottom: 15px;
+}
+.custom-products-banner p {
+    font-size: 15px;
+    color: #a1887f;
+    margin-bottom: 30px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.custom-products-banner button {
+    padding: 12px 25px;
+    border-radius: 6px;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+    margin: 0 5px;
+}
+.quote-button {
+      background: #c75a00;
+  color: #fff;
+  border: none;
+  padding: 0.9rem 2rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+.contact-team-button {
+    background: #ffffff;
+  color: #5c4433;
+  border: 2px solid #e6e6e6;
+  padding: 0.9rem 2rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  margin-left: 10px;
+}

@@ -1,0 +1,77 @@
+.market-rates-card {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.market-rates-card .card-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.market-rates-card .card-icon {
+  font-size: 24px;
+  margin-right: 10px;
+  color: #333;
+}
+
+.market-rates-card .card-title-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.market-rates-card .card-title {
+  font-size: 18px;
+  font-weight: 600;
+  color: #333;
+  margin: 0;
+}
+
+.market-rates-card .card-subtitle {
+  font-size: 13px;
+  color: #777;
+  margin: 0;
+}
+
+.rates-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Responsive columns */
+  gap: 20px;
+  padding-top: 10px;
+}
+
+.rate-item {
+  text-align: center;
+  padding: 15px;
+  border-radius: 6px;
+  background-color: #f9f9f9;
+}
+
+.rate-variety {
+  font-size: 15px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 8px;
+}
+
+.rate-price {
+  font-size: 24px;
+  font-weight: bold;
+  color: #28a745; /* Green for prices */
+  margin-bottom: 5px;
+}
+
+.rate-change {
+  font-size: 13px;
+  color: #777;
+}
+
+.rate-change.positive {
+  color: #28a745; /* Green for positive change */
+}
+
+.rate-change.no-change {
+  color: #555;
+}

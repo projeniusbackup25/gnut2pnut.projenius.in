@@ -1,0 +1,67 @@
+.kpi-card {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  min-width: 220px; /* Adjust as needed */
+}
+
+.kpi-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.kpi-title {
+  font-size: 14px;
+  color: #555;
+  font-weight: 500;
+}
+
+.kpi-icon {
+  font-size: 20px;
+}
+
+.kpi-value {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.kpi-change {
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+}
+
+.kpi-change.positive {
+  color: #28a745; /* Green */
+}
+
+.kpi-change.negative {
+  color: #dc3545; /* Red */
+}
+
+/* Specific card types for background/icon colors */
+.kpi-card.input {
+  background-color: #e6ffee; /* Light green */
+}
+.kpi-card.input .kpi-icon { color: #28a745; }
+
+.kpi-card.output {
+  background-color: #e0f2ff; /* Light blue */
+}
+.kpi-card.output .kpi-icon { color: #007bff; }
+
+.kpi-card.wastage {
+  background-color: #ffe6e6; /* Light red */
+}
+.kpi-card.wastage .kpi-icon { color: #dc3545; }
+
+.kpi-card.predicted-oil {
+  background-color: #fff8e1; /* Light yellow */
+}
+.kpi-card.predicted-oil .kpi-icon { color: #ffc107; }

@@ -1,0 +1,34 @@
+.ai-rec-item {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+.ai-rec-item:last-child {
+  margin-bottom: 0;
+}
+
+.ai-rec-icon {
+  color: #27ae60;
+  font-size: 20px;
+  margin-right: 15px;
+  margin-top: 2px;
+  flex-shrink: 0;
+}
+
+.ai-rec-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.ai-rec-title {
+  font-size: 16px;
+  font-weight: 600;
+  color: #1a237e; /* Dark blue */
+  margin: 0 0 5px 0;
+}
+
+.ai-rec-description {
+  font-size: 14px;
+  color: #5c6bc0; /* Lighter blue */
+  margin: 0;
+}

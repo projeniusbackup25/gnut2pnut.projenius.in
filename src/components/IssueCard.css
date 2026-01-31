@@ -1,0 +1,95 @@
+.issue-card {
+  background-color: #fff;
+  border: 1px solid #f0e9e2;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.issue-card-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.issue-icon {
+  font-size: 20px;
+  margin-right: 12px;
+}
+.issue-icon.high-priority { color: #e74c3c; /* Red */ }
+.issue-icon.medium-priority { color: #f39c12; /* Yellow/Orange */ }
+.issue-icon.low-priority { color: #3498db; /* Blue */ }
+
+
+.issue-title-group {
+  flex-grow: 1;
+}
+
+.issue-title {
+  font-size: 16px;
+  font-weight: 600;
+  color: #3e2723;
+  margin: 0;
+}
+
+.issue-subtitle {
+  font-size: 13px;
+  color: #a1887f;
+  margin: 0;
+}
+
+.issue-priority-tag {
+  font-size: 12px;
+  font-weight: 500;
+  padding: 4px 10px;
+  border-radius: 12px;
+  text-transform: capitalize;
+}
+.issue-priority-tag.high-priority { background-color: #fbe9e7; color: #c62828; }
+.issue-priority-tag.medium-priority { background-color: #fff3e0; color: #e65100; }
+.issue-priority-tag.low-priority { background-color: #e3f2fd; color: #1565c0; }
+
+.issue-card-body {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.issue-metric {
+  display: flex;
+  flex-direction: column;
+}
+
+.issue-metric-label {
+  font-size: 13px;
+  color: #a1887f;
+  margin-bottom: 5px;
+}
+
+.issue-metric-value {
+  font-size: 26px;
+  font-weight: bold;
+  color: #e74c3c; /* Red for current performance */
+}
+
+.issue-metric-value.optimal {
+  color: #27ae60; /* Green for optimal */
+}
+
+.issue-metric-value.impact-text {
+  font-size: 14px;
+  font-weight: normal;
+  color: #5d4037;
+  margin-bottom: 10px;
+}
+
+.view-solutions-btn {
+  background-color: #d35400;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+  width: fit-content;
+}

@@ -1,0 +1,64 @@
+.shift-performance-card {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.shift-performance-card .card-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.shift-performance-card .card-icon {
+  font-size: 24px;
+  margin-right: 10px;
+  color: #333;
+}
+
+.shift-performance-card .card-title-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.shift-performance-card .card-title {
+  font-size: 18px;
+  font-weight: 600;
+  color: #333;
+  margin: 0;
+}
+
+.shift-performance-card .card-subtitle {
+  font-size: 13px;
+  color: #777;
+  margin: 0;
+}
+
+.shift-performance-card .chart-container {
+  width: 100%;
+  height: 250px; /* Define a fixed height for the chart */
+}
+
+/* Adjust legend colors to match lines */
+.recharts-legend-item .recharts-legend-icon {
+  background-color: transparent !important; /* Override default */
+}
+.recharts-legend-item:nth-child(1) .recharts-legend-icon::after {
+  content: '';
+  display: inline-block;
+  width: 10px;
+  height: 2px; /* Line for legend */
+  background-color: #4169E1;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+.recharts-legend-item:nth-child(2) .recharts-legend-icon::after {
+  content: '';
+  display: inline-block;
+  width: 10px;
+  height: 2px; /* Line for legend */
+  background-color: #3CB371;
+  margin-right: 5px;
+  vertical-align: middle;
+}

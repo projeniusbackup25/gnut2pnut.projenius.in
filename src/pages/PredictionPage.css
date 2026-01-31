@@ -1,0 +1,43 @@
+.prediction-page {
+  padding: 30px;
+  background-color: #fdfaf6;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #5d4037;
+  min-height: 100vh;
+}
+
+.prediction-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.prediction-title {
+  font-size: 36px;
+  font-weight: 700;
+  color: #a1887f;
+  margin: 0;
+}
+
+.prediction-subtitle {
+  font-size: 16px;
+  color: #a1887f;
+  margin-top: 10px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.prediction-main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Responsive layout for smaller screens */
+@media (max-width: 992px) {
+  .prediction-main {
+    grid-template-columns: 1fr;
+  }
+}

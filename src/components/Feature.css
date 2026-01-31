@@ -1,0 +1,152 @@
+/* Reset */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Features Section */
+.features-section {
+  padding: 50px 20px;       /* reduced padding for top placement */
+  margin-top: 0;            /* remove extra top margin */
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  background-color: #ffffff; /* white background */
+}
+
+.features-title {
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: #2d1c0f;
+  margin-bottom: 15px;
+}
+
+.features-subtitle {
+  font-size: 1.2rem;
+  color: #6f5846;
+  max-width: 750px;
+  margin: 0 auto 40px;     /* reduced bottom margin */
+  line-height: 1.5;
+}
+
+/* Grid Layout */
+.features-grid {
+  display: flex;             /* flexbox layout */
+  flex-wrap: wrap;           /* allow multiple rows */
+  justify-content: center;   /* center cards horizontally */
+  gap: 40px;                 /* space between cards */
+  max-width: 1250px;
+  margin: 0 auto;
+}
+
+/* Feature Card */
+.feature-card {
+  background: #fff;
+  padding: 20px 25px;
+  border-radius: 14px;
+  text-align: left;
+  border: 1px solid #e0e0e0;
+  transition: all 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 600px;    /* fixed card width */
+  height: 190px;   /* fixed card height */
+  flex-shrink: 0;
+}
+
+.feature-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.18);
+}
+
+/* Icon Box */
+.feature-icon {
+  background: #c75a00;
+  color: #fff;
+  font-size: 24px;
+  width: 48px;
+  height: 48px;
+  padding: 0;
+  border-radius: 10px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.feature-title {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #2d1c0f;
+}
+
+.feature-description {
+  font-size: 0.95rem;
+  color: #8A6F5C;
+  line-height: 1.5;
+  flex-grow: 1;
+  overflow: hidden;
+}
+
+/* Responsive */
+@media (max-width: 1250px) {
+  .features-grid {
+    gap: 30px;
+  }
+}
+
+@media (max-width: 992px) {
+  .features-grid {
+    flex-direction: column;  /* stack cards on smaller screens */
+    align-items: center;
+  }
+
+  .feature-card {
+    width: 90%;
+    height: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .features-section {
+    padding: 40px 15px;
+  }
+
+  .features-title {
+    font-size: 2.2rem;
+  }
+
+  .features-subtitle {
+    font-size: 1rem;
+    margin-bottom: 30px;
+  }
+
+  .feature-card {
+    padding: 15px 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .features-title {
+    font-size: 1.8rem;
+  }
+
+  .features-subtitle {
+    font-size: 0.95rem;
+  }
+
+  .feature-title {
+    font-size: 1.1rem;
+  }
+
+  .feature-description {
+    font-size: 0.85rem;
+  }
+
+  .feature-icon {
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+  }
+}

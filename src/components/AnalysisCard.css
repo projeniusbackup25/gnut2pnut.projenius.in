@@ -1,0 +1,101 @@
+.analysis-card {
+  background-color: #fff;
+  border: 1px solid #f0e9e2;
+  border-radius: 8px;
+  padding: 25px;
+}
+
+.analysis-card-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.analysis-card-icon {
+  font-size: 24px;
+  margin-right: 12px;
+  color: #5d4037;
+}
+
+.analysis-title-group {
+  flex-grow: 1;
+}
+
+.analysis-title {
+  font-size: 18px;
+  font-weight: 600;
+  color: #3e2723;
+  margin: 0;
+}
+
+.analysis-subtitle {
+  font-size: 13px;
+  color: #a1887f;
+  margin: 0;
+}
+
+.analysis-card-body {
+  /* Specific content styling will be inside the component using it */
+}
+
+/* Styles for content inside Efficiency Trend Analysis */
+.trend-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 15px;
+  padding: 12px 0;
+  border-bottom: 1px solid #f5f1ed;
+}
+.trend-item:last-child {
+  border-bottom: none;
+}
+.trend-label {
+  color: #5d4037;
+}
+.trend-value {
+  font-weight: bold;
+}
+.trend-value.positive { color: #27ae60; }
+.trend-value.negative { color: #e74c3c; }
+
+/* Styles for content inside Improvement Potential */
+.potential-item {
+  margin-bottom: 20px;
+}
+.potential-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+  font-size: 15px;
+}
+.potential-label {
+  color: #5d4037;
+}
+.potential-gain {
+  font-weight: bold;
+  color: #27ae60;
+}
+.potential-progress-bar-container {
+  height: 8px;
+  background-color: #f5f1ed;
+  border-radius: 4px;
+  overflow: hidden;
+}
+.potential-progress-bar {
+  height: 100%;
+  background-color: #d35400;
+  border-radius: 4px;
+}
+.total-gain {
+  margin-top: 25px;
+  text-align: right;
+  font-size: 18px;
+  font-weight: bold;
+}
+.total-gain-label {
+  color: #5d4037;
+}
+.total-gain-value {
+  color: #27ae60;
+}

@@ -36,3 +36,43 @@
     transform: rotate(360deg);
   }
 }
+
+/* --- Google Translate Widget Styles --- */
+
+/* This is the main container for the language menu iframe */
+.goog-te-menu-frame {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15) !important;
+  border-radius: 8px !important;
+  border: 1px solid #ddd !important;
+}
+
+/* This targets the iframe that shows the language list */
+body > .skiptranslate > .goog-te-menu-frame {
+  /* Force it to open upwards */
+  top: auto !important;
+  bottom: 40px !important; /* Adjust this value to position it above your footer */
+
+  /* Make it a compact box instead of a huge panel */
+  width: 200px !important; 
+  height: 300px !important;
+}
+
+/* Style the widget itself in the footer */
+#google_translate_element .goog-te-gadget-simple {
+  background-color: #fff !important;
+  border: 1px solid #d1c4b7 !important;
+  border-radius: 4px !important;
+  padding: 8px !important;
+  font-size: 14px !important;
+  display: inline-block;
+}
+
+/* Hide the "Powered by Google" text */
+#google_translate_element .VIpgJd-ZVi9od-l4eHX-hSRGPd {
+  display: none !important;
+}
+
+/* Style the arrow */
+#google_translate_element .goog-te-gadget-icon {
+  display: none !important;
+}

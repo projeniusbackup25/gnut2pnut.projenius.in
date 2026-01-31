@@ -1,0 +1,74 @@
+.grade-distribution-card {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.grade-distribution-card .card-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.grade-distribution-card .card-icon {
+  font-size: 24px;
+  margin-right: 10px;
+  color: #333;
+}
+
+.grade-distribution-card .card-title-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.grade-distribution-card .card-title {
+  font-size: 18px;
+  font-weight: 600;
+  color: #333;
+  margin: 0;
+}
+
+.grade-distribution-card .card-subtitle {
+  font-size: 13px;
+  color: #777;
+  margin: 0;
+}
+
+.chart-and-legend-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.custom-legend {
+  flex-grow: 1; /* Allows legend to take remaining space */
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+
+.legend-color-box {
+  width: 12px;
+  height: 12px;
+  border-radius: 3px;
+  margin-right: 10px;
+  flex-shrink: 0;
+}
+
+.legend-text {
+  color: #555;
+  flex-grow: 1;
+}
+
+.legend-percentage {
+  font-weight: bold;
+  color: #333;
+  width: 40px; /* Align percentages */
+  text-align: right;
+}

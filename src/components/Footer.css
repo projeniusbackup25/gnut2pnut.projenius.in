@@ -1,0 +1,153 @@
+.footer {
+  background-color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  color: #6b6b6b;
+  padding: 60px 40px 30px 40px; /* moved slightly right */
+  font-size: 13px; /* reduced font size */
+}
+
+.footer-top {
+  display: flex;
+  justify-content: flex-start; /* content aligned neatly to left */
+  flex-wrap: wrap;
+  border-bottom: 1px solid #e2e2e2;
+  padding-bottom: 30px;
+  margin-bottom: 20px;
+}
+
+.footer-column {
+  flex: 1;
+  min-width: 220px;
+  margin-right: 40px; /* moved columns a little right */
+  text-decoration: none;
+}
+
+.footer-logo {
+  color: #d2691e; 
+  margin-bottom: 10px;
+  font-size: 16px; /* reduced font size */
+}
+
+.footer-column h4 {
+  font-size: 14px; /* reduced */
+  font-weight: 600;
+  margin-bottom: 12px;
+  color: #000;
+}
+
+.footer-column p {
+  font-size: 13px; /* reduced */
+  line-height: 1.5;
+  margin-bottom: 12px;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+  text-decoration: none;
+}
+
+.footer-column ul li {
+  margin-bottom: 8px;
+  cursor: pointer;
+  font-size: 13px; /* reduced */
+  text-decoration: none; /* remove underline */
+}
+.footer-column ul li a{
+  text-decoration: none;
+  color: #6b6b6b;
+}
+
+.footer-column ul li:hover {
+  text-decoration: none; /* removed underline on hover */
+  color: #d2691e; /* optional hover color */
+}
+
+.footer-column ul li a:hover {
+  text-decoration: none; /* removed underline on hover */
+  color: #d2691e; /* optional hover color */
+}
+
+.footer-translate {
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  cursor: pointer;
+  transition: color 0.3s ease, transform 0.3s ease; /* smooth hover effect */
+}
+
+.footer-translate .icon {
+  margin-right: 8px;
+}
+
+.footer-translate:hover {
+  color: #d2691e;
+  transform: translateX(5px); /* moves slightly right on hover */
+}
+
+.contact-list .icon {
+  margin-right: 8px;
+  color: #d2691e;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: center;
+  flex-direction: column; /* center content horizontally */
+  align-items: center;
+  flex-wrap: wrap;
+  font-size: 12px; /* reduced */
+  color: #6b6b6b;
+  gap: 5px;
+  text-align: center; /* center text */
+}
+
+
+
+.footer-links span {
+  margin-left: 10px; /* small spacing between links */
+  cursor: pointer;
+}
+
+.footer-links span:hover {
+  text-decoration: none; /* remove underline */
+  color: #d2691e; /* optional hover color */
+}
+
+@media (max-width: 900px) {
+  .footer-top {
+    flex-direction: column;
+  }
+
+  .footer-column {
+    margin-bottom: 30px;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    gap: 10px;
+    text-align: center; /* center on mobile too */
+  }
+
+  .footer-bottom a{
+    color: #000;
+  }
+  .footer-links span {
+    margin-left: 0; /* stack nicely on mobile */
+  }
+}
+
+.footer-logo-img {
+  max-height: 150px; /* Adjust the size of your logo as needed */
+  width: auto;
+  margin-left: 100px;
+}
+
+.footer-logo-text{
+  margin-left: -40px;
+}
+
+.footer-logo-p{
+  margin-left: -40px;
+  width: 300px;
+}

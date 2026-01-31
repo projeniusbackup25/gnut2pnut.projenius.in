@@ -1,0 +1,76 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #fdfaf5;
+  margin: 0;
+  padding: 0;
+}
+
+.market-section {
+  text-align: center;
+  padding: 60px 20px;
+  background-color: #fdfaf5;
+}
+
+.market-section h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #2d1c0f;
+  margin-bottom: 10px;
+}
+
+.market-section p {
+  font-size: 1.1rem;
+  color: #6f5846;
+  margin-bottom: 40px;
+}
+
+.market-cards {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.market-card {
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 25px 30px;
+  min-width: 200px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.market-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 25px rgba(0,0,0,0.15);
+}
+
+.market-card h3 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 15px;
+  color: #2d1c0f;
+}
+
+.market-card .price {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #c75a00;
+  margin-bottom: 8px;
+}
+
+.market-card .change {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #28a745;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .market-cards {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+}

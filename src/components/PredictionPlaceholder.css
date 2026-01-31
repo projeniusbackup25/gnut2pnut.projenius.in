@@ -1,0 +1,76 @@
+.placeholder-card {
+  background-color: #fff;
+  border: 1px solid #f0e9e2;
+  border-radius: 8px;
+  padding: 25px;
+  margin-bottom: 20px;
+}
+
+.ready-card {
+  text-align: center;
+  padding: 40px 25px;
+}
+
+.ready-icon {
+  font-size: 40px;
+  color: #a1887f;
+  margin-bottom: 15px;
+}
+
+.ready-title {
+  font-size: 18px;
+  color: #3e2723;
+  margin: 0 0 8px 0;
+}
+
+.ready-text {
+  font-size: 14px;
+  color: #a1887f;
+  margin: 0;
+}
+
+.info-title {
+  font-size: 18px;
+  color: #3e2723;
+  margin: 0 0 5px 0;
+}
+
+.info-subtitle {
+  font-size: 13px;
+  color: #a1887f;
+  margin: 0 0 20px 0;
+}
+
+.variety-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+  border-bottom: 1px solid #f5f1ed;
+}
+
+.variety-item:last-child {
+  border-bottom: none;
+}
+
+.variety-name {
+  font-size: 15px;
+  font-weight: 600;
+  color: #5d4037;
+  margin: 0 0 4px 0;
+}
+
+.variety-description {
+  font-size: 13px;
+  color: #a1887f;
+  margin: 0;
+}
+
+.variety-range {
+  font-size: 14px;
+  font-weight: 500;
+  color: #3e2723;
+  background-color: #f5f1ed;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
