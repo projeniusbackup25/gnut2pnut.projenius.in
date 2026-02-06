@@ -43,7 +43,7 @@ const Footer = () => {
             </li>
             <li>
               <a href="mailto:karthi@gmail.com">
-                <FaEnvelope className="icon" /> karthi@gmail.com
+                <FaEnvelope className="icon" /> karthickganeshm01@gmail.com
               </a>
             </li>
           </ul>
@@ -52,7 +52,7 @@ const Footer = () => {
 
       <div className="footer-bottom">
         <p>© 2025 TechCrusaderz. All rights reserved.</p>
-        <p>Website Developed by Startup PSNACET Students - <span style={{ color: '#ff6600ff' }}>
+        <p> <span style={{ color: '#ff6600ff' }}>
           <a
             href="https://projenius.in/"
             target="_blank"
