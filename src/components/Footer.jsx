@@ -43,7 +43,7 @@ const Footer = () => {
             </li>
             <li>
               <a href="mailto:karthi@gmail.com">
-                <FaEnvelope className="icon" /> gnut2pnut.projenius.in
+                <FaEnvelope className="icon" /> gnut2pnut.projenius.in@gmail.com
               </a>
             </li>
           </ul>
