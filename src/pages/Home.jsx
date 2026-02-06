@@ -1,6 +1,5 @@
 import CallToAction from "../components/CallToAction"
 import Feature from "../components/Feature"
-import Footer from "../components/Footer"
 import HeroSection from "../components/HeroSection"
 import MarketRates from "../components/MarketRates"
 

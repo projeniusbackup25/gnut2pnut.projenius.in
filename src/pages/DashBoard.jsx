@@ -11,7 +11,6 @@ import MarketRatesCard from '../components/MarketRatesCard';
 
 // Import icons
 import { FiBox, FiBriefcase, FiAlertTriangle, FiClock } from 'react-icons/fi';
-import Header from '../components/Header';
 
 // Helper function to generate a random number within a range
 const getRandom = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;

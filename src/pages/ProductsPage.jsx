@@ -2,7 +2,7 @@ import React, { useState, useMemo } from 'react';
 import './ProductsPage.css';
 import ProductCard from '../components/ProductCard';
 import { FiGrid, FiFeather, FiDroplet, FiStar, FiGitMerge } from 'react-icons/fi';
-import { FaMapMarkerAlt, FaPhoneAlt, FaEnvelope } from "react-icons/fa";
+import { FaPhoneAlt } from "react-icons/fa";
 
 // 1. Import your product images from the 'src/images' folder
 //    (Replace these filenames with your actual image filenames)
